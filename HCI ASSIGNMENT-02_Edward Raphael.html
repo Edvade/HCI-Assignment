@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Raphael Forms</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url(background2.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+    </style>
+    <center>
+        <div style="background-color: burlywood;margin-top: 100px; width:70%;">
+            <h1 style="font-style: italic;">Edward's Hotel</h1>
+            <form>
+                <fieldset style="width: 650px; border-width: 5px; border-color: black;">
+                    <legend style="text-align: left; font-size: 20px;">Personal Info</legend>
+
+                    <div>
+                        <label for="FN">First Name: </label>
+                        <input type="text" id="FN" placeholder="ex.(Edward)" required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="LN">Last Name: </label>
+                        <input type="text" id="LN" placeholder="ex.(Raphael)" required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Male" value="M" >
+
+                        <label for="Female">Female</label>
+                        <input type="radio" id="Female" value="F" >
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="date">Birthdate: </label>
+                        <input type="date" id="date" value="B" required>
+                    </div>
+
+                    </table>
+                </fieldset>
+
+                <br>
+
+                <fieldset style="width: 650px; border-width: 5px; border-color: black;">
+                    <legend style="text-align: right; font-size: 20px" ;>Contact Info</legend>
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                <div style="text-align: right;">
+                                    <label for="Email">Email: </label>
+                                    <input type="text" id="Email" required>
+                                </div>
+                            </td>
+
+                            <td colspan="2">
+                                <div style="text-align: right;"> <label for="PN">Mobile number: </label>
+                                    <input type="number" id="PN" required>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <div style="text-align: right;">
+                                    <label for="Add">Address: </label>
+                                    <input type="text" id="Add" required>
+                                </div>
+                            </td>
+                            <td colspan="2">
+                                <div style="text-align: right;">
+                                    <label for="Fax">Fax: </label>
+                                    <input type="number" id="Fax" required>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                </legend>
+
+                <fieldset style="width: 650px; border-width: 5px; border-color: black;">
+                    <legend style="text-align: center; font-size: 20px" ;>Rooms</legend>
+
+                    <table style="text-align: left; margin: auto;">
+                        <tr>
+                            <td rowspan="1">
+                    <label for="TR">Twin Rooms</label>
+                    <input type="radio" id="TR" value="M">
+                                <img src="twin room.jpg" width="300" height="150">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1">
+                                <label for="Harry">Harry Suite</label>
+                                <input type="radio" id="Harry" value="M">
+                                            <img src="harry.jpg" width="300" height="150">
+                                        </td>
+                        </tr>
+                    </style>
+            </table>
+    </fieldset>
+    </legend>
+    </table>
+
+    <br>
+
+    <div>
+        <input type="reset">
+    </div>
+    <br>
+    <div>
+        <input type="submit">
+    </div>
+</center>
+    </form>
+</body>
+
+</html>
